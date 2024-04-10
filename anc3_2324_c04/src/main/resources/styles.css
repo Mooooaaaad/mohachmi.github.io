@@ -1,0 +1,58 @@
+/* General body styling */
+body {
+    background-color: #313131;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header styling */
+.header {
+    font-weight: bold;
+    font-size: 24px;
+    color: #444;
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+/* Button styling */
+.scale-button {
+    min-width: 15px;
+    min-height: 15px;
+    max-width: 15px;
+    max-height: 15px;
+    padding: 0px;
+    font-size: 8px;
+    font-family: -moz-fixed;
+    font-weight: bold;
+    focus-traversable: false;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.scale-button:hover {
+    background-color: #0056b3;
+}
+
+/* Validation message styling */
+.validation-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.score-title {
+    -fx-font-size: 18px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+.you-win-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+}
+
